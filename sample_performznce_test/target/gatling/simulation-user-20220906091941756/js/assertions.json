@@ -1,0 +1,10 @@
+{
+  "simulation": "examples.users.simulation_user",
+  "simulationId": "simulation-user",
+  "start": 1662455981756,
+  "description": "",
+  "scenarios": ["get all users and then get the first user by id"],
+  "assertions": [
+
+  ]
+}
