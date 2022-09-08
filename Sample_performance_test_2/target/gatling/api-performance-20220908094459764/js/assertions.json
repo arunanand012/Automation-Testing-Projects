@@ -1,0 +1,10 @@
+{
+  "simulation": "examples.users.API_Performance",
+  "simulationId": "api-performance",
+  "start": 1662630299764,
+  "description": "",
+  "scenarios": ["Send the request to and check the status"],
+  "assertions": [
+
+  ]
+}
