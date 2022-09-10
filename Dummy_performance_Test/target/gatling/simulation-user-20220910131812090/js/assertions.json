@@ -1,0 +1,10 @@
+{
+  "simulation": "examples.users.simulation_user",
+  "simulationId": "simulation-user",
+  "start": 1662815892090,
+  "description": "",
+  "scenarios": ["delete the employee data"],
+  "assertions": [
+
+  ]
+}
