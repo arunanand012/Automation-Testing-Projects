@@ -1,0 +1,3664 @@
+11:26:54.778 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+11:26:55.670 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:26:56.014 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+11:26:59.060 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:00.123 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:27:04.153 [main] DEBUG com.intuit.karate - response time in milliseconds: 4015
+1 < 429
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 05:57:03 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 05:57:03 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 43
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 57
+1 < X-Ratelimit-Reset: 1662789466
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body>
+</html>
+
+
+11:27:04.185 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:7
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 4015, url: https://dummy.restapiexample.com/api/v1/employees, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body>
+</html>
+
+src/test/java/examples/users/users.feature:7
+11:27:05.778 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+11:28:42.393 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+11:28:42.627 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:28:42.674 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662789522627
+11:28:42.706 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+11:28:43.502 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:28:43.924 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:28:45.768 [main] DEBUG com.intuit.karate - response time in milliseconds: 1828
+1 < 429
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 05:58:45 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 05:58:45 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 58
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 57
+1 < X-Ratelimit-Reset: 1662789583
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+11:28:45.768 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:7
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1828, url: https://dummy.restapiexample.com/api/v1/employees, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:7
+11:28:46.408 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+11:32:04.666 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+11:32:05.338 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:32:05.338 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662789725338
+11:32:05.432 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+11:32:07.541 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:32:08.588 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:32:10.948 [main] DEBUG com.intuit.karate - response time in milliseconds: 2345
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 06:02:10 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 12:02:10 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 57
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+11:32:10.995 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+11:32:11.995 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+11:38:23.203 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+11:38:24.312 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:38:24.312 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662790104312
+11:38:24.484 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+11:38:27.565 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:38:29.236 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:38:31.674 [main] DEBUG com.intuit.karate - response time in milliseconds: 2438
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 06:08:31 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 12:08:30 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+11:38:31.736 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+11:38:32.846 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+11:39:53.694 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+11:39:53.882 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:39:53.882 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662790193882
+11:39:53.897 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+11:39:54.647 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:39:55.069 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:39:57.695 [main] DEBUG com.intuit.karate - response time in milliseconds: 2626
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 06:09:57 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 12:09:57 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+11:39:57.726 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+11:39:57.773 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:11
+And match data.response.id[0] == 1
+js failed:
+>>>>
+01: data
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "data" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/examples/users/users.feature:11
+11:39:58.414 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+11:42:09.753 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+11:42:09.987 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:42:09.987 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662790329987
+11:42:10.003 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+11:42:10.769 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:42:11.191 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:42:12.863 [main] DEBUG com.intuit.karate - response time in milliseconds: 1672
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 06:12:12 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 12:12:12 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+11:42:12.879 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+11:42:12.894 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:11
+And match data.response.id[1] == 1
+js failed:
+>>>>
+01: data
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "data" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/examples/users/users.feature:11
+11:42:13.613 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+12:00:32.429 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+12:00:33.804 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:00:33.820 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662791433804
+12:00:41.805 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:00:44.336 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:00:47.804 [main] DEBUG com.intuit.karate - response time in milliseconds: 3437
+1 < 429
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 06:30:47 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 06:30:47 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 25
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 57
+1 < X-Ratelimit-Reset: 1662791472
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+12:00:47.804 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:8
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 3437, url: https://dummy.restapiexample.com/api/v1/employees, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:8
+12:00:47.820 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:00:47.820 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:00:52.273 [main] DEBUG com.intuit.karate - response time in milliseconds: 4453
+1 < 429
+1 < Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 06:30:51 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 06:30:51 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 43
+1 < Server: nginx/1.21.6
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 56
+1 < X-Ratelimit-Reset: 1662791494
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+12:00:52.273 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:15
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 4453, url: https://dummy.restapiexample.com/api/v1/employees, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:15
+12:00:52.288 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:00:52.288 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employeef111s
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:00:56.977 [main] DEBUG com.intuit.karate - response time in milliseconds: 4689
+1 < 404
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 06:30:56 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 06:30:56 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 404
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 404
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 59
+1 < X-Sol: pub_site
+1 < Content-Length: 77
+{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+
+12:00:57.102 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:24
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 4689, url: https://dummy.restapiexample.com/api/v1/employeef111s, response: 
+{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+src/test/java/examples/users/users.feature:24
+12:00:57.118 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:00:57.118 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:01:03.101 [main] DEBUG com.intuit.karate - response time in milliseconds: 5983
+1 < 429
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 06:31:02 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 06:31:02 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 30
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 55
+1 < X-Ratelimit-Reset: 1662791492
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+12:01:03.101 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:32
+Then status 201
+status code was: 429, expected: 201, response time in milliseconds: 5983, url: https://dummy.restapiexample.com/api/v1/employees, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:32
+12:01:04.398 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+12:15:33.178 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+12:15:34.178 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:15:34.178 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662792334178
+12:15:34.397 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11
+12:15:36.569 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:15:38.037 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:15:40.289 [main] DEBUG com.intuit.karate - response time in milliseconds: 2236
+1 < 429
+1 < Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 06:45:39 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 06:45:39 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 30
+1 < Server: nginx/1.21.6
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 56
+1 < X-Ratelimit-Reset: 1662792369
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+12:15:40.289 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:15
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 2236, url: https://dummy.restapiexample.com/api/v1/employees, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:15
+12:15:41.257 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+12:15:56.867 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+12:15:57.085 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:15:57.117 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662792357117
+12:15:57.132 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 27
+12:15:57.851 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:15:58.226 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:15:59.773 [main] DEBUG com.intuit.karate - response time in milliseconds: 1547
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 06:45:59 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 12:45:59 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+12:15:59.804 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:32
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 1547, url: https://dummy.restapiexample.com/api/v1/employees, response: 
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+src/test/java/examples/users/users.feature:32
+12:16:00.397 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+12:22:42.273 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+12:22:42.804 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:22:42.851 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662792762804
+12:22:42.960 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 66
+12:22:45.241 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:22:46.147 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employee/1,2,3,4
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:22:48.100 [main] DEBUG com.intuit.karate - response time in milliseconds: 1953
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 06:52:47 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 12:52:47 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Content-Length: 179
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+12:22:48.147 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:71
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 1953, url: https://dummy.restapiexample.com/api/v1/employee/1,2,3,4, response: 
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+src/test/java/examples/users/users.feature:71
+12:22:49.022 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+12:23:27.039 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+12:23:27.305 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:23:27.305 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662792807305
+12:23:27.336 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 66
+12:23:28.195 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:23:28.632 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employee/1,2,3,4
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:23:30.257 [main] DEBUG com.intuit.karate - response time in milliseconds: 1625
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 06:53:29 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 12:53:29 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx/1.21.6
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Content-Length: 179
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+12:23:30.273 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 1,
+    "employee_name": "Tiger Nixon",
+    "employee_salary": 320800,
+    "employee_age": 61,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+12:23:30.835 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+17:37:47.767 [main] INFO  com.intuit.karate - Karate version: 1.2.0
+17:37:48.299 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:37:48.314 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1662811668299
+17:37:50.393 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:51.378 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:53.315 [main] DEBUG com.intuit.karate - response time in milliseconds: 1921
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 12:07:53 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 18:07:53 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+17:37:53.346 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+17:37:53.362 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:53.362 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:54.643 [main] DEBUG com.intuit.karate - response time in milliseconds: 1281
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 12:07:54 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 18:07:54 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+17:37:54.643 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+17:37:54.659 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:54.659 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employeef111s
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:55.768 [main] DEBUG com.intuit.karate - response time in milliseconds: 1109
+1 < 404
+1 < Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 12:07:55 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:07:56 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 404
+1 < Server: nginx/1.21.6
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 404
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 59
+1 < X-Sol: pub_site
+1 < Content-Length: 77
+{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+
+17:37:55.768 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:23
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1109, url: https://dummy.restapiexample.com/api/v1/employeef111s, response: 
+{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+src/test/java/examples/users/users.feature:23
+17:37:55.783 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:55.783 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employees
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:56.862 [main] DEBUG com.intuit.karate - response time in milliseconds: 1079
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 12:07:57 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 18:07:56 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+17:37:56.862 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:31
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 1079, url: https://dummy.restapiexample.com/api/v1/employees, response: 
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+src/test/java/examples/users/users.feature:31
+17:37:56.877 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:56.877 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employee/1
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:58.002 [main] DEBUG com.intuit.karate - response time in milliseconds: 1125
+1 < 429
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 12:07:58 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:07:58 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 56
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 57
+1 < X-Ratelimit-Reset: 1662811734
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+17:37:58.002 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:40
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1125, url: https://dummy.restapiexample.com/api/v1/employee/1, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:40
+17:37:58.018 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:58.018 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employee/1
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:59.143 [main] DEBUG com.intuit.karate - response time in milliseconds: 1125
+1 < 429
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 12:07:59 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:07:59 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 54
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 57
+1 < X-Ratelimit-Reset: 1662811733
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+17:37:59.143 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:47
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1125, url: https://dummy.restapiexample.com/api/v1/employee/1, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:47
+17:37:59.158 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:59.158 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employeef11/1
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:38:00.174 [main] DEBUG com.intuit.karate - response time in milliseconds: 1016
+1 < 404
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 12:08:00 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 404
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 404
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Sol: pub_site
+1 < Content-Length: 77
+{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+
+17:38:00.174 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:55
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1016, url: https://dummy.restapiexample.com/api/v1/employeef11/1, response: 
+{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+src/test/java/examples/users/users.feature:55
+17:38:00.174 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:00.189 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employee/1
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:38:01.392 [main] DEBUG com.intuit.karate - response time in milliseconds: 1203
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 12:08:01 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 18:08:01 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Content-Length: 179
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+17:38:01.392 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:63
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 1203, url: https://dummy.restapiexample.com/api/v1/employee/1, response: 
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+src/test/java/examples/users/users.feature:63
+17:38:01.392 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:01.408 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dummy.restapiexample.com/api/v1/employee/1,2,3,4
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:38:02.673 [main] DEBUG com.intuit.karate - response time in milliseconds: 1265
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 12:08:02 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 18:08:02 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,User-Agent,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Server-Cache: false
+1 < X-Sol: pub_site
+1 < Content-Length: 179
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+17:38:02.673 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 1,
+    "employee_name": "Tiger Nixon",
+    "employee_salary": 320800,
+    "employee_age": 61,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+17:38:02.673 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:02.830 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dummy.restapiexample.com/api/v1/create
+1 > content-type: Application/JSON; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"test","salary":"123","age":"23"}
+
+17:38:04.456 [main] DEBUG com.intuit.karate - response time in milliseconds: 1626
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:04 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:04 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:04.456 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:82
+Then status 201
+status code was: 406, expected: 201, response time in milliseconds: 1626, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:82
+17:38:04.456 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:04.456 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dummy.restapiexample.com/api/v1/create
+1 > content-type: Application/JSON; charset=UTF-8
+1 > Content-Length: 15
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"test"}
+
+17:38:05.659 [main] DEBUG com.intuit.karate - response time in milliseconds: 1203
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:05 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:05 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:05.659 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:92
+Then status 201
+status code was: 406, expected: 201, response time in milliseconds: 1203, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:92
+17:38:05.659 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:05.659 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dummy.restapiexample.com/api/v1/create
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"test","salary":"123","age":"23"}
+
+17:38:06.737 [main] DEBUG com.intuit.karate - response time in milliseconds: 1078
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=21600
+1 < Content-Type: application/json
+1 < Date: Sat, 10 Sep 2022 12:08:07 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 10 Sep 2022 18:08:06 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Response: 200
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Sol: pub_site
+1 < Content-Length: 128
+{"status":"success","data":{"name":"test","salary":"123","age":"23","id":3115},"message":"Successfully! Record has been added."}
+
+17:38:06.737 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:101
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 1078, url: https://dummy.restapiexample.com/api/v1/create, response: 
+{"status":"success","data":{"name":"test","salary":"123","age":"23","id":3115},"message":"Successfully! Record has been added."}
+src/test/java/examples/users/users.feature:101
+17:38:06.737 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:06.737 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dummy.restapiexample.com/api/v1/create
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:38:07.706 [main] DEBUG com.intuit.karate - response time in milliseconds: 969
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:08 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:08 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:07.706 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:110
+Then status 201
+status code was: 406, expected: 201, response time in milliseconds: 969, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:110
+17:38:07.721 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:07.721 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dummy.restapiexample.com/api/v1/create
+1 > content-type: Application/JSON; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"test","salary":"123","age":"23"}
+
+17:38:08.799 [main] DEBUG com.intuit.karate - response time in milliseconds: 1078
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:09 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:09 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:08.799 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:119
+Then status 200
+status code was: 406, expected: 200, response time in milliseconds: 1078, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:119
+17:38:08.815 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:08.815 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dummy.restapiexample.com/api/v1/update/21
+1 > content-type: Application/JSON; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"test","salary":"123","age":"23"}
+
+17:38:09.893 [main] DEBUG com.intuit.karate - response time in milliseconds: 1078
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:10 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:10 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:09.893 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:128
+Then status 200
+status code was: 406, expected: 200, response time in milliseconds: 1078, url: https://dummy.restapiexample.com/api/v1/update/21, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:128
+17:38:09.893 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:09.908 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dummy.restapiexample.com/api/v1/update/21
+1 > content-type: Application/JSON; charset=UTF-8
+1 > Content-Length: 15
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"test"}
+
+17:38:10.971 [main] DEBUG com.intuit.karate - response time in milliseconds: 1063
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:11 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:11 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:10.971 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:138
+Then status 200
+status code was: 406, expected: 200, response time in milliseconds: 1063, url: https://dummy.restapiexample.com/api/v1/update/21, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:138
+17:38:10.971 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:10.986 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dummy.restapiexample.com/api/v1/update/21
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"test","salary":"123","age":"23"}
+
+17:38:12.033 [main] DEBUG com.intuit.karate - response time in milliseconds: 1047
+1 < 429
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 12:08:12 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:12 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 49
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 57
+1 < X-Ratelimit-Reset: 1662811741
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+17:38:12.033 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:147
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1047, url: https://dummy.restapiexample.com/api/v1/update/21, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:147
+17:38:12.049 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:12.049 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dummy.restapiexample.com/api/v1/update/21
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:38:13.252 [main] DEBUG com.intuit.karate - response time in milliseconds: 1203
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:13 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:13 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:13.252 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:156
+Then status 200
+status code was: 406, expected: 200, response time in milliseconds: 1203, url: https://dummy.restapiexample.com/api/v1/update/21, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:156
+17:38:13.252 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:13.252 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dummy.restapiexample.com/api/v1/update/21
+1 > content-type: Application/JSON; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Arun","salary":"1234","age":"28"}
+
+17:38:14.486 [main] DEBUG com.intuit.karate - response time in milliseconds: 1234
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:14 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:14 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:14.486 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:165
+Then status 201
+status code was: 406, expected: 201, response time in milliseconds: 1234, url: https://dummy.restapiexample.com/api/v1/update/21, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:165
+17:38:14.502 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:14.502 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://dummy.restapiexample.com/api/v1/delete/2
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:38:16.908 [main] DEBUG com.intuit.karate - response time in milliseconds: 2406
+1 < 406
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:17 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:17 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: nginx
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:16.908 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:174
+Then status 204
+status code was: 406, expected: 204, response time in milliseconds: 2406, url: https://dummy.restapiexample.com/api/v1/delete/2, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:174
+17:38:16.908 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:16.908 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://dummy.restapiexample.com/api/v1/delete/2
+1 > content-type: Application/JSON
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:38:17.908 [main] DEBUG com.intuit.karate - response time in milliseconds: 1000
+1 < 406
+1 < Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Sat, 10 Sep 2022 12:08:18 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:18 GMT
+1 < Pagespeed: off
+1 < Response: 406
+1 < Server: Apache
+1 < Vary: Accept-Encoding,Origin
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 406
+1 < X-Origin-Cache-Control: 
+1 < X-Sol: pub_site
+1 < Content-Length: 226
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+
+17:38:17.908 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:181
+Then status 204
+status code was: 406, expected: 204, response time in milliseconds: 1000, url: https://dummy.restapiexample.com/api/v1/delete/2, response: 
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+src/test/java/examples/users/users.feature:181
+17:38:17.908 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:17.908 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://dummy.restapiexample.com/api/v1/delete/2
+1 > Host: dummy.restapiexample.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:38:21.393 [main] DEBUG com.intuit.karate - response time in milliseconds: 3485
+1 < 429
+1 < Cache-Control: private, max-age=0, must-revalidate, no-cache, no-store
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sat, 10 Sep 2022 12:08:21 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Fri, 09 Sep 2022 12:08:21 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pagespeed: off
+1 < Response: 429
+1 < Retry-After: 42
+1 < Server: Apache
+1 < Vary: Accept-Encoding,Origin
+1 < X-Endurance-Cache-Level: 2
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 429
+1 < X-Nginx-Cache: WordPress
+1 < X-Origin-Cache-Control: no-cache, private
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 57
+1 < X-Ratelimit-Reset: 1662811743
+1 < X-Sol: pub_site
+1 < Transfer-Encoding: chunked
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+17:38:21.393 [main] ERROR com.intuit.karate - src/test/java/examples/users/users.feature:187
+Then status 204
+status code was: 429, expected: 204, response time in milliseconds: 3485, url: https://dummy.restapiexample.com/api/v1/delete/2, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+src/test/java/examples/users/users.feature:187
+17:38:22.612 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
